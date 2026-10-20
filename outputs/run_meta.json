@@ -1,0 +1,8 @@
+{
+  "reviews_modelled": 11952,
+  "first_period": "2015Q3",
+  "last_period": "2026Q3",
+  "n_periods": 45,
+  "reviews_per_period_min": 138,
+  "reviews_per_period_max": 604
+}

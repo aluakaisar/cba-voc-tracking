@@ -1,0 +1,24 @@
+# Optional collectors: Apple App Store and ProductReview.com.au.
+#
+# Install these ONLY when you want those two sources, and preferably into a
+# separate virtual environment:
+#
+#   python3 -m venv .venv-collect
+#   source .venv-collect/bin/activate
+#   pip install -r requirements-appstore.txt
+#   python src/collect_appstore.py
+#   deactivate
+#
+# Why the separate environment: app-store-scraper 0.3.5 hard-pins
+# requests==2.23.0, released in 2020. Installed alongside anything that wants
+# a current requests, pip cannot satisfy both and spends minutes backtracking
+# before giving up. Keeping it isolated avoids the conflict instead of
+# fighting it, and nothing in the analysis pipeline imports it.
+#
+# The Google Play collector is the one that matters for the time series
+# anyway: it has the most reviews and the longest history. These two are
+# supplementary.
+
+app-store-scraper==0.3.5
+requests==2.23.0
+beautifulsoup4>=4.12,<5

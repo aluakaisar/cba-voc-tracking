@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+
+# Scraped review data is not redistributable, and the repo should stay light.
+# The collect_*.py scripts regenerate it. Keep the processed sample committed
+# so results can be read without running anything; outputs/ holds the aggregates.
+data/raw/*.csv
+data/processed/*.csv
+!data/processed/sample_*.csv
+scratch/
+.venv-collect/
+outputs/run_log.txt

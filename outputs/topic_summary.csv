@@ -1,0 +1,11 @@
+topic,MTP,spearman_rho,trend,imtp_slope,imtp_first,imtp_last,mean_sentiment,mean_rating
+Customer service & staff,0.0686,0.7154,increasing,0.0015,0.0392,0.1029,0.2353,3.2119
+Account access & details,0.1041,0.7075,increasing,0.0013,0.1132,0.1571,0.1084,2.6381
+"Cards, cardless cash & notifications",0.1664,0.4557,increasing,0.0011,0.1815,0.1884,0.1576,2.8791
+Money transfers,0.0973,0.5685,increasing,0.001,0.0815,0.1034,0.1585,2.9465
+Phone compatibility & install,0.0983,0.3885,constant,0.0004,0.0858,0.1021,0.0772,2.5502
+App won't open or let me in,0.0639,0.1323,constant,0.0001,0.0545,0.0597,-0.0033,2.0781
+Quick balance & home screen,0.1289,-0.1264,constant,-0.0002,0.1732,0.1235,0.1679,2.8858
+"Login (fingerprint, PIN)",0.0736,-0.3292,constant,-0.0007,0.0954,0.078,0.0382,2.3304
+Updates breaking the app,0.0984,-0.3399,constant,-0.0008,0.109,0.062,-0.0274,2.0058
+Tap & pay (Android NFC),0.1006,-0.7004,decreasing,-0.0038,0.0669,0.0228,-0.0639,2.3914
